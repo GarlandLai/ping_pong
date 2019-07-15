@@ -1,3 +1,4 @@
+require('pry')
 class Integer
   def ping_pong
     x = 0
@@ -14,8 +15,9 @@ class Integer
         output_array.push(x)
       end
     end
-    puts output_array
+    print output_array
     output_array
+    binding.pry
   end
 end
 puts "Please enter a number:"

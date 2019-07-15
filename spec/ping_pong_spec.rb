@@ -1,6 +1,5 @@
 require('rspec')
 require('ping_pong')
-require('pry')
 
 describe('#ping_pong') do
   it("Counts from 1 to any given number") do
